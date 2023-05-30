@@ -9,13 +9,13 @@ pip install -r requirements.json
 python app.py
 ```
 
-before that i create a db called feat
+before that i create a mongodb db called 'feat'
 inside it i have four collections
-| employer_req
-| employers
-| engage_reqs
+| employer_req,
+| employers,
+| engage_reqs,
 | users
-just like json which was present in featurepreneur freelance
+with documents just like json which was present in featurepreneur freelance
 
 To view all employee req go to the givens route
 http://127.0.0.1:5000/view
