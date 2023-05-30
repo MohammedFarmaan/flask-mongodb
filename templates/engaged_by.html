@@ -1,0 +1,16 @@
+<!-- templates/engaged_by.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unique engaged_by</title>
+  </head>
+  <body>
+    <h1>Unique engaged_by:</h1>
+    <ul>
+      {% for engaged_by in engaged_by_list %}
+      <li>{{ engaged_by }}</li>
+      {% endfor %}
+    </ul>
+    <h1>Total engaged Featurepreneur in a project : {{count}}</h1>
+  </body>
+</html>

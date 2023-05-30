@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dashboard</title>
+  </head>
+  <body>
+    {% with messages = get_flashed_messages() %} {% if messages %} {% for msg in
+    messages %}
+    <p>{{msg}}</p>
+    {% endfor %} {% endif %} {% endwith %} Dashboard |
+    <a href="/emp/logout">Logout</a> <br />
+    <br />
+    Userid : {{userid}}
+    <br />
+    Username : {{username}}
+    <br /><br />
+
+    <a href="/view">View req</a> | <a href="/emp/add/req">Add req</a>
+  </body>
+</html>
